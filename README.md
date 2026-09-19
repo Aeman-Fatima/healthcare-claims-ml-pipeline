@@ -1,6 +1,6 @@
-### Aeman-Fatima (a1946845)
-
 # Healthcare Insurance Big Data Pipeline
+
+**Stack:** Python · pandas · scikit-learn · XGBoost
 
 ## Project Overview
 
@@ -85,5 +85,5 @@ python src/main.py \
 - Large raw datasets are not stored due to size limits. Simulated equivalents are generated to reproduce the workflow.
 - Complaints data is optional. If not available, the pipeline falls back on purely simulated inputs.
 - Results may vary slightly depending on seed/random splits.
-- This project is for academic purposes only and does not represent production insurance analytics.
+- Built as a learning/portfolio project — the data is simulated, so it demonstrates the pipeline design rather than production insurance analytics.
 
